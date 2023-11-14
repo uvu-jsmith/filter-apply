@@ -5,7 +5,6 @@ use image::{DynamicImage, GenericImageView, ImageBuffer, Rgba};
 #[command(author, version, about, long_about = None)]
 struct Args {
     ifile: String,
-    ofile: String,
 }
 
 fn apply_sepia(image: DynamicImage) -> DynamicImage {
@@ -43,10 +42,6 @@ fn main() {
 
     let output_image = apply_sepia(input_image);
 
-    if args.ofile.is_empty() {
-        let output_filename = format!("sepia_{}", &args.ifile);
-        output_image.save(output_filename).expect("Failed to save the output file");
-    } else {
-        output_image.save(&args.ofile).expect("Failed to save the output file");
-    }
+    let output_filename = format!("sepia_{}", &args.ifile);
+    output_image.save(output_filename).expect("Failed to save the output file");
 }
