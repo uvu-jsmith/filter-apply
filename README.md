@@ -2,7 +2,7 @@
 A project written in rust that aims to provide an intuitive way to transform images into gray images, then returning a filtered image with custom RGB values (hexcolors are planned but not currently implemented).
 
 # How to use this program
-Usage: filter-apply <IFILE> <R> <G> <B> <INTENSITY>
+Usage: filter-apply \<IFILE\> \<R\> \<G\> \<B\> \<INTENSITY\>
 
 ifile: input file
 r: red value                (unsigned int8)
