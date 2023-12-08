@@ -17,3 +17,8 @@ intensity: brightness(?)    (float64)
 ### With Filter (sepia, old depracated function)
 ![Cyan filter with intensity of 3](https://github.com/uvu-jsmith/filter-apply/blob/fda77bf6329e159ba3392c1b5f1922a3b169ede7/resources/images/Knoxville%20zoo%20-%20chimpanzee%20teeth.jpg-filtered.jpg)
 ### With Cyan Filter (0 255 255 3)
+
+# DEMO
+
+https://github.com/uvu-jsmith/filter-apply/assets/123269599/ae1f7f6c-daa8-434b-b639-8b0fb3522d56
+
